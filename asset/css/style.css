@@ -1,0 +1,143 @@
+.main__backgroud{
+    animation: backgroundChange ease-in 0.5s;
+    transform-origin: bottom;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header__navbar{
+    display: flex;
+    width: calc(100% - 200px);
+    height: 80px;
+    margin: 70px 100px 0 100px;
+    border: 2px solid #00AF66;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.header__navbar-item{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header__navbar-item:first-child{
+    margin-left: 70px;
+}
+
+.header__navbar-item:last-child{
+    margin-right: 70px;
+}
+
+.header__navbar-text{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 27px;
+    color: #00AF66;
+}
+
+.header__navbar-active.header__navbar-text{
+    color: #B8293D;
+    border-bottom: 2px solid #B8293D;
+}
+
+.header__navbar-logo{
+    font-size: 30px
+}
+
+.header__mask{
+    position: absolute;
+    width: 100%;
+}
+
+.header__mask-img{
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 125px;
+}
+
+.header__mask-img--rotation{
+    width: 51px;
+    height: 41px;
+    position: absolute;
+    top: 89px;
+    left: 135px;
+    transform: rotate(-33.5deg);
+}
+
+.contact{
+    position: absolute;
+    top: 330px;
+    left: 135px;
+    bottom: 135px;
+    width: 100%
+}
+
+.contact__desc-header{
+    width: 670px;
+    height: 75px;
+}
+
+.contact__desc-header--text{
+    font-size: 50px;
+    line-height: 75px;
+    color: #00AF66;
+    font-weight: bold;
+}
+
+.contact__desc-pagra{
+    width: 540px;
+    height: 90px;
+}
+
+.contact__desc-pagra--text{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    color: #00AF66;
+}
+
+.contact__custom{
+    width: 100%;
+    position: relative;
+}
+
+.contact_custom-logo{
+    position: absolute;
+    top: 25px;
+    right: 470px;
+}
+
+.contact_custom-mask{
+    position: absolute;
+    top: 100px;
+    right: 425px;
+}
+
+.contact__custom-circle--big{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 50px;
+    top: 165px;
+    left: 10px;
+}
+
+.contact__custom-circle--small{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    border-radius: 50px;
+    top: 165px;
+    left: 85px;
+}
